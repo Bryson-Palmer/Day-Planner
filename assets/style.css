@@ -17,6 +17,10 @@ textarea{
   padding: 10px;
 }
 
+main {
+  width: 96vw !important;
+}
+
 .jumbotron {
   background-color: transparent;
   color: black;
