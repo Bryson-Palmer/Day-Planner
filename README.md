@@ -25,6 +25,6 @@ THEN the saved events persist
 ```
 
 ## Attributions
-* Photo by fauxels from Pexels
-* Photo by Andrea Piacquadio from Pexels
-* Photo by August de Richelieu from Pexels
+* Business photo by fauxels from Pexels
+* Exercise photo by Andrea Piacquadio from Pexels
+* Family photo by August de Richelieu from Pexels
