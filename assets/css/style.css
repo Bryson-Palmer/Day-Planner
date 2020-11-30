@@ -34,7 +34,7 @@ main {
 }
 
 .jumbo-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1));
   height: 40vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -58,7 +58,7 @@ main {
   text-align: center;
   color: white;
   font-size: 1.5rem;
-  margin-top: 1rem;
+  margin-top: 3rem;
   text-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
 }
 
@@ -99,6 +99,38 @@ main {
 }
 
 .saveBtn:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
+
+.info {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+  border-bottom: 1px dashed #000000;
+  border-left: 1px solid #0000003a;
+}
+
+#infoText {
+  background-color:  transparent;
+  border: 1px solid #0000003a;
+  resize: none;
+  color:  gray;
+  border-left: 1px solid black;
+  border-top: 1px solid white;
+  padding: 10px;
+  margin-bottom: 0;
+}
+
+.clearBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color:  #ff6961;
+  color: white;
+}
+
+.clearBtn:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
 }

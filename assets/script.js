@@ -76,6 +76,7 @@ var hr15 = $( "#hour15Button" );
 var hr16 = $( "#hour16Button" );
 var hr17 = $( "#hour17Button" );
 var hr18 = $( "#hour18Button" );
+var clearAll = $( "#clearAll" );
 
 hr9.on( "click", event => {
 
@@ -197,8 +198,8 @@ hr18.on( "click", event => {
     location.reload();
 });
 
-// Logic doesn't work. Need to find a new way to clear the planner each day
-// if ( currentHour > 0 || currentHour < 9 ) {
-//     localStorage.clear();
-//     location.reload();
-// };
+// Clear All button
+clearAll.on( "click", () => {
+    localStorage.clear();
+    location.reload();
+});
